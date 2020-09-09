@@ -1,6 +1,11 @@
 import math
+def insercao(a, b):
+    x = ((a ** 2) * 2) / b
+    return x
+
+def intercalacao(a, b):
+    x = ((math.log10(a)) * a) / b
+
 n = int(input("Quantos elementos serão ordenados? "))
 m = int(input("Quantas instruções por segundo? "))
-insercao = ((n ** 2) * 2) / m
-intercalacao = ((math.log10(n)) * n) / m
-print(insercao)
+print(f"O resuldado por inserção é {insercao(n,m)}")
