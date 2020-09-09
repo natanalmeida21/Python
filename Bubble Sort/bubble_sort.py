@@ -1,6 +1,6 @@
 def bubble_sort(list):
     ordenado = False
-    while True:
+    while not ordenado:
         ordenado = True
         for i in range(len(list) - 1):
             if list[i] > list [i + 1]:
@@ -9,5 +9,5 @@ def bubble_sort(list):
             print(list)
     return list
 
-a = [30, 50, 10, 35, 70, 45, 80, 100, 22]
+a = [3, 5, 7, 1, 5, 9]
 bubble_sort(a)
