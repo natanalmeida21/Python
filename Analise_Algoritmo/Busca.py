@@ -72,9 +72,4 @@ else:
     busca_sequencial(vetor, elemento)
     fim = time.time()
     print(f"O tempo da busca sequencial foi de {fim - inicio} segundos")
-    print("Busca binária")
-    print(f"A posição do elemento {elemento} é {busca_binaria(vetor, elemento)}")
-    inicio = time.time()
-    busca_binaria(vetor, elemento)
-    fim = time.time()
-    print(f"O tempo da busca binaria foi de {fim - inicio} segundos")
+    
