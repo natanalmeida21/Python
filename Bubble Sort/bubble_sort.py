@@ -9,5 +9,5 @@ def bubble_sort(list):
             print(list)
     return list
 
-a = [3, 5, 7, 1, 5, 9]
+a = [3, 5, 7, 1, 5, 9, 66, -15]
 bubble_sort(a)
